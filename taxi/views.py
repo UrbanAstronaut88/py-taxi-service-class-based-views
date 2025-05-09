@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import generic
 from django.views.generic import ListView
-from taxi.models import Driver, Car, Manufacturer
+from taxi.models import Manufacturer
 from django.views.generic import DetailView
 from .models import Car, Driver
 
